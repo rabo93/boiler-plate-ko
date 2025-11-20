@@ -5,14 +5,17 @@
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
-        "backend" : "nodemon index.js",
+        "backend": "nodemon index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "rabo-kim",
     "license": "ISC",
     "dependencies": {
+        "bcrypt": "^6.0.0",
         "body-parser": "^2.2.0",
+        "cookie-parser": "^1.4.7",
         "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
         "mongodb": "^7.0.0",
         "mongoose": "^8.19.3"
     },
